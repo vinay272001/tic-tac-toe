@@ -6,7 +6,7 @@ pipeline {
         }
     }
     tools{
-        node 'node'
+        nodejs 'node'
     }
     stages{
         stage('Install Packages') {
