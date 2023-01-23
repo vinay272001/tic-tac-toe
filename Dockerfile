@@ -1,5 +1,6 @@
 FROM node:19-alpine
 
+USER root
 # Create a working directory
 WORKDIR /app
 
